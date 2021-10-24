@@ -1,0 +1,33 @@
+.resume-flex {
+  max-width: 1400px;
+  color: #e7530b;
+  align-items: center;
+}
+.main-div {
+  margin: 5rem auto;
+  background-color: #efefe7;
+  padding: 6rem !important;
+}
+
+.resume-icon {
+  color: #e7530b;
+}
+.resume-icon:hover {
+  color: var(--clr-edu-res-h1);
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-end;
+    margin-top: 2em;
+  }
+}
+
+.resume-h1 {
+  color: var(--clr-edu-res-h1);
+}

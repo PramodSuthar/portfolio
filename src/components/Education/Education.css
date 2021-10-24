@@ -1,0 +1,45 @@
+.c1 {
+  max-width: 100%;
+  align-items: center;
+  flex-basis: auto;
+}
+
+.edu-sec-txt {
+  color: var(--clr-edu-res-h1);
+}
+
+.main-div {
+  margin: 5rem auto;
+  background-color: #efefe7;
+  padding: 6rem !important;
+}
+
+.course-div {
+  margin: 6rem auto;
+  color: var(--clr-main-font);
+  /* background-color: #e7530b; */
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c3 {
+  flex-basis: fit-content;
+}
+
+.txt {
+  font-size: 1.5em;
+}
+
+.hr-blank {
+  border-color: #efefe7;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-end;
+    margin-top: 2em;
+  }
+}

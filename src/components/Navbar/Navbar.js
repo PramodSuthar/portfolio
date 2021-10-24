@@ -22,8 +22,33 @@ const Navbar = () => {
     <nav className='center nav'>
       <ul
         style={{ display: showNavList ? 'flex' : null }}
-        className='nav__list'
+        className='nav__list nav-list-toggle'
       >
+        {contact.email ? (
+          <li className='nav__list-item'>
+            <a
+              href='#education'
+              onClick={toggleNavList}
+              className='link link--nav navbar-link'
+            >
+              Education
+            </a>
+          </li>
+        ) : null}
+
+        {skills.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#coursework'
+              onClick={toggleNavList}
+              className='link link--nav navbar-link'
+            >
+              coursework
+            </a>
+          </li>
+        ) : null}
+
+
         {projects.length ? (
           <li className='nav__list-item'>
             <a
@@ -48,6 +73,18 @@ const Navbar = () => {
           </li>
         ) : null}
 
+        {skills.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#contact'
+              onClick={toggleNavList}
+              className='link link--nav navbar-link'
+            >
+              Resume
+            </a>
+          </li>
+        ) : null}
+
         {contact.email ? (
           <li className='nav__list-item'>
             <a
@@ -59,38 +96,44 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
+
+
+        <button
+          type='button'
+          className='btn--icon nav__list-item'
+        ><a className='btn-navbar-social' href="https://www.twitter.com/Prmd96" target="_blank" rel="noopener noreferrer">
+            <TwitterIcon />
+          </a>
+        </button>
+        <button
+          type='button'
+          className='btn--icon nav__list-item ' >
+          <a className='btn-navbar-social' href="https://www.github.com/PramodSuthar" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon />
+          </a>
+        </button>
+
+        <button
+          type='button'
+          className=' btn--icon nav__list-item'>
+          <a className='btn-navbar-social' href="https://www.linkedin.com/in/pramodsuthar/" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </a>
+        </button>
       </ul>
-
-      <button
-        type='button'
-        className='btn--icon '
-      >
-        <TwitterIcon />
-      </button>
-      <button
-        type='button'
-        className='btn--icon nav__list-item'>
-        <GitHubIcon />
-      </button>
-
-      <button
-        type='button'
-        className='btn btn--icon nav__list-item'>
-        <LinkedInIcon />
-      </button>
-
       <button
         type='button'
         onClick={toggleTheme}
-        className='btn btn--icon nav__theme nav__list-item'
+        className=' btn--icon nav__theme nav__list-item'
         aria-label='toggle theme'>
         {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
+
       <button
         type='button'
         onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
+        className='btn btn--icon nav__hamburger nav__list-item btn-toggle '
         aria-label='toggle navigation'
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}

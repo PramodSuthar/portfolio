@@ -4,7 +4,7 @@
 }
 
 .about__name {
-  color: var(--clr-primary);
+  color: var(--clr-main-font);
 }
 
 .about__role {
@@ -12,7 +12,7 @@
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 2rem;
   max-width: 600px;
 }
 
