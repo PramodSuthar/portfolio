@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: '#home',
+  homepage: 'https://pramodsuthar.netlify.app/',
   title: 'Pramod Suthar',
 }
 
@@ -21,33 +21,51 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Flexi Pay',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['React', 'Redux', 'Firebase'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'LinkedIn Clone',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['React', 'Redux', 'Firebase'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
+  {
+    name: 'Gmail Clone',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['React', 'Redux', 'Firebase'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Slack',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['React', 'Styled Components', 'Firebase'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Snapchat v2',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['React', 'Redux', 'Firebase'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+
   {
     name: 'Portfolio',
     description:
       'Created this beautiful Portfolio which highlights ',
-    stack: ['React','JS','CSS'],
+    stack: ['React', 'JS', 'CSS'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com/PramodSuthar/portfolio',
   },
@@ -119,7 +137,7 @@ const projects = [
     name: 'Xylophone',
     description:
       'For any music fans out there, this is an iOS app built on Swift. Understanding and using the concept of AVFoundation and AVAudioPlayer, Xylophone is a colorful music app that plays Xylophone sounds. Useful for the next Mozart! ;)',
-    stack: ['Swift', 'Swift', 'Swift'],
+    stack: ['', 'Swift', ''],
     sourceCode: 'https://github.com/PramodSuthar/Xylophone-iOS',
   },
   {
@@ -133,7 +151,7 @@ const projects = [
     name: 'Calculator',
     description:
       'A simple calculator app built using the MVC model, the Calculator is an iOS app, which provides the same but essential features any calculator should suffice.',
-    stack: ['Swift', 'TypeScript', 'MVC'],
+    stack: ['', 'Swift', ''],
     sourceCode: 'https://github.com/PramodSuthar/Calculator-iOS',
   },
   {
@@ -160,11 +178,12 @@ const skills = [
   'Swift',
   'Python',
   'C#',
+  'C++',
   'MySQL',
   'Oracle DB',
   'SQLite',
   'Realm',
-  'Git',
+  'GitHub',
   'Perforce',
   'CI/CD',
 ]
