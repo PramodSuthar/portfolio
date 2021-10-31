@@ -25,8 +25,8 @@ const projects = [
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['React', 'Redux', 'Firebase'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/PramodSuthar/flexipay',
+    livePreview: 'https://flexipay-react.herokuapp.com/',
   },
   {
     name: 'LinkedIn Clone',
