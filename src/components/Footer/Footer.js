@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className='footer'>
     <Fade up>
       <p className='footer__link'>
-        Made with ❤️
+        Made with ❤️ & React ⚛️
       </p>
     </Fade>
 

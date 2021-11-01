@@ -9,7 +9,7 @@ const about = {
   name: 'Pramod Suthar',
   role: 'Software Developer',
   description:
-    'Welcome to my Portfolio. This portfolio is built on React. So Enjoy!',
+    'Welcome to my Portfolio.',
   social: {
     twitter: 'https://www.twitter.com/Prmd96',
     linkedin: 'https://www.linkedin.com/in/pramodsuthar',
