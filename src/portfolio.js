@@ -21,42 +21,26 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Flexi Pay',
+    name: 'LinkedIn v2',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Curated a perfect clone for the LinkedIn, which is a replica of the famous social media platform for Business Professionals.',
     stack: ['React', 'Redux', 'Firebase'],
-    sourceCode: 'https://github.com/PramodSuthar/flexipay',
-    livePreview: 'https://flexipay-react.herokuapp.com/',
-  },
-  {
-    name: 'LinkedIn Clone',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React', 'Redux', 'Firebase'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/PramodSuthar/linkedinv2',
+    livePreview: 'https://linkedinv2.web.app/',
   },
   {
     name: 'Gmail Clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Developed a clone for the most popular mail service in the World, Gmail!, fitted with the Google Auth, firebase firestore and firebase hosting.',
     stack: ['React', 'Redux', 'Firebase'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/PramodSuthar/gmail-clone-react',
+    livePreview: 'https://clone-649b9.web.app/',
   },
   {
-    name: 'Slack',
+    name: 'React ChatApp',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React', 'Styled Components', 'Firebase'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Snapchat v2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React', 'Redux', 'Firebase'],
+      'Just a basic Chat Application built in React which allows the users to interact in real time.',
+    stack: ['React', 'Socket.io', 'React Chat Engine'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -64,10 +48,26 @@ const projects = [
   {
     name: 'Portfolio',
     description:
-      'Created this beautiful Portfolio which highlights ',
+      'Created this beautiful Portfolio which highlights all my work and accomplishments done so far.',
     stack: ['React', 'JS', 'CSS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com/PramodSuthar/portfolio',
+    sourceCode: 'https://github.com/PramodSuthar/portfolio',
+    livePreview: 'https://pramodsuthar.netlify.app',
+  },
+  {
+    name: 'Calculator',
+    description:
+      'Developed this beautiful Calculator web app in React which showcases my skills in the front end department.',
+    stack: ['', 'React', ''],
+    sourceCode: 'https://github.com/PramodSuthar/calculator-react',
+    livePreview: 'https://online-calculator-react.netlify.app/',
+  },
+  {
+    name: 'Flexi Pay',
+    description:
+      'Flexi Pay is a web app landing page for any website with a goal. Powered with Firebase Auth and Firebase Realtime Database.',
+    stack: ['React', 'Redux', 'Firebase'],
+    sourceCode: 'https://github.com/PramodSuthar/flexipay',
+    livePreview: 'https://flexipay.netlify.app/',
   },
   {
     name: 'Chicken Saga',
@@ -81,7 +81,7 @@ const projects = [
     description:
       'Developed a Remake of the classic arcade game Pacman where the character, Pacman will find paths through his maze world.',
     stack: [' Unreal Engine', '', 'C++'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/PramodSuthar/PacMan',
   },
   {
     name: 'Meteor Shooter',
