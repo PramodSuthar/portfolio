@@ -73,7 +73,7 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {skills.length ? (
+        {/* {skills.length ? (
           <li className='nav__list-item'>
             <a
               href='#contact'
@@ -83,7 +83,7 @@ const Navbar = () => {
               Resume
             </a>
           </li>
-        ) : null}
+        ) : null} */}
 
         {contact.email ? (
           <li className='nav__list-item'>
