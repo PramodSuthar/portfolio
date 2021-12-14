@@ -21,6 +21,23 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Moviepedia',
+    description:
+      'Developed the perfect Encylopedia for movie and tv shows lovers: Moviepedia. Search for new Movies and TV Shows adn have a look at the trailer on the go.',
+    stack: ['React', 'SASS', 'TMDB API'],
+    sourceCode: 'https://github.com/PramodSuthar/moviepedia',
+    livePreview: 'https://movieepedia.netlify.app/',
+  },
+  {
+    name: "Let's Chat",
+    description:
+      'Just a fully fledged Chat Application built in React which allows the users to send text, emojis, gif and share files in real time.',
+    stack: ['React', 'Stream API', 'React Chat Engine'],
+    sourceCode: 'https://github.com/PramodSuthar/letschat',
+    livePreview: 'https://https://letschatwp.netlify.app/',
+  },
+
+  {
     name: 'LinkedIn v2',
     description:
       'Curated a perfect clone for the LinkedIn, which is a replica of the famous social media platform for Business Professionals.',
@@ -35,14 +52,6 @@ const projects = [
     stack: ['React', 'Redux', 'Firebase'],
     sourceCode: 'https://github.com/PramodSuthar/gmail-clone-react',
     livePreview: 'https://clone-649b9.web.app/',
-  },
-  {
-    name: 'React ChatApp',
-    description:
-      'Just a basic Chat Application built in React which allows the users to interact in real time.',
-    stack: ['React', 'Socket.io', 'React Chat Engine'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
   },
 
   {
