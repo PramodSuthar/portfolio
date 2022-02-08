@@ -6,6 +6,7 @@
 
 .edu-sec-txt {
   color: var(--clr-edu-res-h1);
+  font-size: 5em;
 }
 
 .main-div {
@@ -17,7 +18,14 @@
 .course-div {
   margin: 6rem auto;
   color: var(--clr-main-font);
+  font-size: 2.3em;
   /* background-color: #e7530b; */
+}
+
+.course-div-list {
+  margin: 6rem auto;
+  color: var(--clr-main-font);
+  font-size: 1.8rem;
 }
 
 .wrap {
@@ -30,7 +38,7 @@
 }
 
 .txt {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .hr-blank {
@@ -38,8 +46,26 @@
 }
 
 @media (max-width: 600px) {
+  .edu-sec-txt {
+    font-size: 3.5em;
+  }
+
   .app .about {
     align-items: flex-end;
     margin-top: 2em;
+  }
+  .course-div {
+    font-size: 1.8em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-div-list {
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
+
+  .txt {
+    font-size: 1.5em;
   }
 }

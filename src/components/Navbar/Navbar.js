@@ -7,7 +7,7 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact, about } from '../../portfolio'
+import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -15,8 +15,6 @@ const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false)
 
   const toggleNavList = () => setShowNavList(!showNavList)
-
-  const { social } = about
 
   return (
     <nav className='center nav'>
@@ -47,7 +45,6 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
-
 
         {projects.length ? (
           <li className='nav__list-item'>
@@ -97,26 +94,34 @@ const Navbar = () => {
           </li>
         ) : null}
 
-
-        <button
-          type='button'
-          className='btn--icon nav__list-item'
-        ><a className='btn-navbar-social' href="https://www.twitter.com/Prmd96" target="_blank" rel="noopener noreferrer">
+        <button type='button' className='btn--icon nav__list-item'>
+          <a
+            className='btn-navbar-social'
+            href='https://www.twitter.com/Prmd96'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <TwitterIcon />
           </a>
         </button>
-        <button
-          type='button'
-          className='btn--icon nav__list-item ' >
-          <a className='btn-navbar-social' href="https://www.github.com/PramodSuthar" target="_blank" rel="noopener noreferrer">
+        <button type='button' className='btn--icon nav__list-item '>
+          <a
+            className='btn-navbar-social'
+            href='https://www.github.com/PramodSuthar'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <GitHubIcon />
           </a>
         </button>
 
-        <button
-          type='button'
-          className=' btn--icon nav__list-item'>
-          <a className='btn-navbar-social' href="https://www.linkedin.com/in/pramodsuthar/" target="_blank" rel="noopener noreferrer">
+        <button type='button' className=' btn--icon nav__list-item'>
+          <a
+            className='btn-navbar-social'
+            href='https://www.linkedin.com/in/pramodsuthar/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <LinkedInIcon />
           </a>
         </button>
@@ -125,10 +130,10 @@ const Navbar = () => {
         type='button'
         onClick={toggleTheme}
         className=' btn--icon nav__theme nav__list-item'
-        aria-label='toggle theme'>
+        aria-label='toggle theme'
+      >
         {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
-
 
       <button
         type='button'
@@ -138,7 +143,7 @@ const Navbar = () => {
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
-    </nav >
+    </nav>
   )
 }
 

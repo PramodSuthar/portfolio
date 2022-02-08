@@ -1,3 +1,8 @@
 .contact {
   flex-direction: column;
 }
+
+.email-me {
+  font-size: 1.02rem !important;
+  padding: 1rem 2.4rem !important;
+}

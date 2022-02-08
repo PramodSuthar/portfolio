@@ -1,0 +1,26 @@
+body {
+  font-family: 'Almarena-Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^='number-slide'],
+[class*=' number-slide'] {
+  overflow: hidden;
+  color: var(--clr-main-font);
+  font-size: 6rem;
+  font-weight: 500;
+  height: 180px;
+  max-height: 100vh;
+  text-align: right;
+  margin-bottom: 0px !important;
+  padding-right: 10px;
+}
+
+.keen-slider {
+  width: 350px !important;
+}
+
+.item:not(:last-of-type)::after {
+  content: ',';
+}

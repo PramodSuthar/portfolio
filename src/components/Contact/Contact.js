@@ -12,8 +12,8 @@ const Contact = () => {
       </Fade>
       <Fade up>
         <a href={`mailto:${contact.email}`}>
-          <span type='button' className='btn btn--outline'>
-            Email me
+          <span type='button' className='btn btn--outline email-me'>
+            Send me an Email!
           </span>
         </a>
       </Fade>

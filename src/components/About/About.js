@@ -1,23 +1,52 @@
+/* eslint-disable react/self-closing-comp */
 import Fade from 'react-reveal/Fade'
 import { about } from '../../portfolio'
+import Slider from '../Slider/Slider'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume } = about
+  const { name, description } = about
 
   return (
-
-    <div className='about center'>
-      {name && (
+    <div>
+      <div className='ghost-start'>
+        <div className='ghost-container'>
+          <div className='ghost'>
+            <div className='body-ghost'>
+              <div className='face'>
+                <div className='eyes'></div>
+                <div className='mouth'></div>
+              </div>
+              <div className='bottom'>
+                <div className='circle'></div>
+                <div className='circle'></div>
+                <div className='circle'></div>
+                <div className='wave'></div>
+              </div>
+            </div>
+            <div className='shadow'></div>
+          </div>
+        </div>
+      </div>
+      <div className='about center '>
+        <div className='about-section'>
+          {name && (
+            <Fade up>
+              <h1 className='hi-main'>
+                <Slider />,
+                <div>
+                  I&apos;m <span className='about__name'>{name}.</span>
+                </div>
+              </h1>
+            </Fade>
+          )}
+        </div>
         <Fade up>
-          <h1 className='hi-main'>
-            Hi, I am <span className='about__name'>{name}.</span>
-          </h1>
+          <div className='about__desc'>
+            <span>{description}</span>
+          </div>
         </Fade>
-      )}
-      <Fade up>
-        <span className='about__desc'>{description && description}</span>
-      </Fade>
+      </div>
     </div>
   )
 }

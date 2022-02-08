@@ -14,6 +14,11 @@
 .nav__theme {
   margin-top: 0em;
   margin-bottom: 0.9rem;
+  transition: 1000ms;
+}
+
+.nav__theme:active {
+  transition: 1000ms ease-in-out;
 }
 
 @media (max-width: 1030px) {

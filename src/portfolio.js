@@ -8,8 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pramod Suthar',
   role: 'Software Developer',
-  description:
-    'Welcome to my Portfolio.',
+  description: 'Welcome to my Portfolio.',
   social: {
     twitter: 'https://www.twitter.com/Prmd96',
     linkedin: 'https://www.linkedin.com/in/pramodsuthar',
@@ -210,7 +209,7 @@ const coursework = [
   'Fundamentals of Machine Learning',
   'Cross Platform Application Development',
   'Introduction to Game Development',
-  'Full Stack Web Development'
+  'Full Stack Web Development',
 ]
 
 const contact = {

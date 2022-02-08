@@ -1,5 +1,17 @@
+@font-face {
+  font-family: Almarena-Regular;
+  src: url('../src/assets/fonts/Almarena-Regular.woff') format('woff'),
+    url('../src/assets/fonts/Almarena-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Almarena-Light;
+  src: url('../src/assets/fonts/Almarena-Light.woff') format('woff'),
+    url('../src/assets/fonts/Almarena-Light.ttf') format('truetype');
+}
+
 .app {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Almarena-Regular', 'Poppins', sans-serif;
   line-height: 1.5;
   color: var(--clr-main-font);
   background-color: black var(--clr-bg);
@@ -19,6 +31,7 @@
   --clr-bg-alt: #efefe7;
   --clr-fg: #efefe7;
   --clr-fg-alt: #444;
+  --ghost-bg: #195157;
 
   --clr-fg-altv2: #444;
   --clr-btnhover: #e7530b;
@@ -42,6 +55,8 @@
     #cd7672,
     #eeb462
   );
+
+  --ghost-bg: #2a2f4c;
   --clr-header: #2a2f4c;
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
@@ -258,6 +273,7 @@ main {
 .section-skills {
   color: var(--clr-main-font);
   align-content: center;
+  font-size: 3rem;
 }
 
 .box {
@@ -285,6 +301,10 @@ main {
   .section {
     margin-top: 4em;
   }
+
+  .section-skills {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 433px) {
@@ -295,5 +315,10 @@ main {
     animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: opacity 0.4s cubic-bezier(0.645, 0.045, 0.355, 1),
       padding 0.2s ease-in-out;
+  }
+
+  .section-project {
+    padding-left: 25px;
+    padding-right: 20px;
   }
 }
