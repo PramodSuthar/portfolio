@@ -67,10 +67,10 @@ export default () => {
         return (
           <p
             key={idx}
-            className='item keen-slider__slide number-slide'
+            className='keen-slide keen-slider__slide number-slide'
             style={{ opacity: opacities[idx] }}
           >
-            <p>{src}</p>
+            <p className='slider-text'>{src}</p>
           </p>
         )
       })}

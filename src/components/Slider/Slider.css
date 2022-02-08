@@ -24,3 +24,14 @@ body {
 .item:not(:last-of-type)::after {
   content: ',';
 }
+
+@media (max-width: 600px) {
+  .slider-text {
+    font-size: 2.5rem !important;
+  }
+
+  [class^='number-slide'],
+  [class*=' number-slide'] {
+    padding-right: 3px;
+  }
+}

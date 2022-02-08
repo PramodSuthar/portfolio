@@ -34,7 +34,7 @@ const About = () => {
             <Fade up>
               <h1 className='hi-main'>
                 <Slider />,
-                <div>
+                <div className='intro-main'>
                   I&apos;m <span className='about__name'>{name}.</span>
                 </div>
               </h1>
