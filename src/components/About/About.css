@@ -209,6 +209,10 @@ body {
   .about__name {
     text-align: right !important;
   }
+
+  .about-section {
+    height: 120px;
+  }
 }
 
 .ghost-start {
