@@ -1,9 +1,11 @@
+/* Common styles */
 .project {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow); /* Assuming --shadow is defined elsewhere */
   transition: transform 0.2s linear;
+  margin-right: 0.5em; /* Moved from the end of the file */
 }
 
 .project:hover {
@@ -19,20 +21,17 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .project__stack-item {
   margin: 0.5em;
-  font-weight: 12;
+  font-weight: bold; /* Changed 12 to bold for font weight */
   font-size: 0.95rem;
-  color: var(--clr-fg-alt);
+  color: var(--clr-fg-alt); /* Assuming --clr-fg-alt is defined elsewhere */
 }
 
-.project {
-  margin-right: 0.5em;
-}
-
+/* Additional styles (assuming it was mistakenly repeated) */
 .social-icon-preview {
   margin-right: 0 !important;
   margin-left: 0.5em;
