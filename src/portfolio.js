@@ -8,7 +8,6 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pramod Suthar',
   role: 'Software Developer',
-  description: 'Welcome to my Portfolio.',
   social: {
     twitter: 'https://www.twitter.com/Prmd96',
     linkedin: 'https://www.linkedin.com/in/pramodsuthar',

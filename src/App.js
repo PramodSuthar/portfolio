@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Education from './components/Education/Education'
 import './App.css'
+import Introduction from './components/Introduction/Introduction'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -18,6 +19,7 @@ const App = () => {
       <Header />
       <main>
         <About />
+        <Introduction />
         <Education />
         <Projects />
         <Skills />

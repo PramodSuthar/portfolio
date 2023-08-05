@@ -10,6 +10,26 @@
     url('../src/assets/fonts/Almarena-Light.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: Silk-Serif-Regular;
+  src: url('../src/assets/fonts/Silk-Serif-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Silk-Serif-Light;
+  src: url('../src/assets/fonts/Silk-Serif-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Silk-Serif-Light-Italic;
+  src: url('../src/assets/fonts/Silk-Serif-Light-Italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Silk-Serif-ExtraLight;
+  src: url('../src/assets/fonts/Silk-Serif-ExtraLight.otf') format('opentype');
+}
+
 .app {
   font-family: 'Almarena-Regular', 'Poppins', sans-serif;
   line-height: 1.5;
@@ -47,13 +67,22 @@
 }
 
 .dark {
-  --clr-bg: linear-gradient(
+  /* --clr-bg: linear-gradient(
     147deg,
     #dc8665,
     #183086,
     #534666,
     #cd7672,
     #eeb462
+  ); */
+
+  --clr-bg: linear-gradient(
+    147deg,
+    #313332,
+    #42443e,
+    #99918b,
+    #444444,
+    #202020
   );
 
   --ghost-bg: #2a2f4c;
