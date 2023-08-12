@@ -1,5 +1,5 @@
 /* eslint-disable react/self-closing-comp */
-import Fade from 'react-reveal/Fade'
+import { Fade } from 'react-awesome-reveal'
 import { about } from '../../portfolio'
 import Slider from '../Slider/Slider'
 import './About.css'
@@ -31,7 +31,7 @@ const About = () => {
       <div className='about center '>
         <div className='about-section'>
           {name && (
-            <Fade up>
+            <Fade direction='up' triggerOnce='true'>
               <h1 className='hi-main'>
                 <Slider />,
                 <div className='intro-main'>
@@ -41,7 +41,7 @@ const About = () => {
             </Fade>
           )}
         </div>
-        <Fade up>
+        <Fade direction='up' triggerOnce='true'>
           <div className='about__desc'>
             <span>{description}</span>
           </div>

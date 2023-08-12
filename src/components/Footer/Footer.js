@@ -1,14 +1,14 @@
-import Fade from 'react-reveal/Fade'
+import { Fade } from 'react-awesome-reveal'
 import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <Fade up>
+    <Fade direction='up' triggerOnce='true'>
       <p className='footer__link'>Made with ❤️ & React ⚛️</p>
     </Fade>
 
     <hr />
-    <Fade up>
+    <Fade direction='up' triggerOnce='true'>
       <p className='footer__link'>© Pramod Suthar</p>
     </Fade>
   </footer>

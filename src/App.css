@@ -67,22 +67,13 @@
 }
 
 .dark {
-  /* --clr-bg: linear-gradient(
+  --clr-bg: linear-gradient(
     147deg,
     #dc8665,
     #183086,
     #534666,
     #cd7672,
     #eeb462
-  ); */
-
-  --clr-bg: linear-gradient(
-    147deg,
-    #313332,
-    #42443e,
-    #99918b,
-    #444444,
-    #202020
   );
 
   --ghost-bg: #2a2f4c;

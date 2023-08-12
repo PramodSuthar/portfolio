@@ -1,4 +1,4 @@
-import Fade from 'react-reveal/Fade'
+import { Fade } from 'react-awesome-reveal'
 import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
 import './Skills.css'
@@ -8,13 +8,13 @@ const Skills = () => {
 
   return (
     <section className='section skills' id='skills'>
-      <Fade up>
+      <Fade direction='up' triggerOnce='true'>
         <h2 className='section__title section-skills'>Skills</h2>
       </Fade>
       <ul className='skills__list'>
-        <Fade up>
+        <Fade direction='up' triggerOnce='true'>
           {skills.map((skill) => (
-            <Fade up>
+            <Fade direction='up' triggerOnce='true'>
               <li
                 key={uniqid()}
                 className='skills__list-item btn-skill btn btn--plain'

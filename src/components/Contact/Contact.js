@@ -1,4 +1,4 @@
-import Fade from 'react-reveal/Fade'
+import { Fade } from 'react-awesome-reveal'
 import { contact } from '../../portfolio'
 import './Contact.css'
 
@@ -7,10 +7,10 @@ const Contact = () => {
 
   return (
     <section className='section contact center' id='contact'>
-      <Fade up>
+      <Fade direction='up' triggerOnce='true'>
         <h2 className='section__title section-skills'>Contact</h2>
       </Fade>
-      <Fade up>
+      <Fade direction='up' triggerOnce='true'>
         <a href={`mailto:${contact.email}`}>
           <span type='button' className='btn btn--outline email-me'>
             Send me an Email!
