@@ -1,12 +1,11 @@
 import React from 'react'
-import { render } from 'react-dom'
-import App from './App'
+import { createRoot } from 'react-dom'
 import { ThemeProvider } from './contexts/theme'
 import './index.css'
+import App from './App'
 
-render(
+createRoot(document.getElementById('root')).render(
   <ThemeProvider>
     <App />
-  </ThemeProvider>,
-  document.getElementById('root')
+  </ThemeProvider>
 )
