@@ -12,14 +12,14 @@
     height: 6em;
   }
 
-  .headername {
+  .header-name {
     font-size: 1.7rem !important;
     margin: 0;
   }
 }
 
 @media (max-width: 1030px) {
-  .headername {
+  .header-name {
     margin: 0;
   }
 }

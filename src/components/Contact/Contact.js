@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section className='section contact center' id='contact'>
       <Fade direction='up' triggerOnce='true'>
-        <h2 className='section__title section-skills'>Contact</h2>
+        <h2 className='section-title section-skills'>Contact</h2>
       </Fade>
       <Fade direction='up' triggerOnce='true'>
         <a href={`mailto:${contact.email}`}>

@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section id='projects' className='section projects'>
       <Fade direction='up' triggerOnce='true'>
-        <h1 className='title'>Projects</h1>
+        <h1 className='section-title'>Projects</h1>
       </Fade>
       <div className='section-project sds'>
         <span className='projects__grid box'>

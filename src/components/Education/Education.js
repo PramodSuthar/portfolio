@@ -1,18 +1,14 @@
 import { Fade } from 'react-awesome-reveal'
-import uniqid from 'uniqid'
-import { coursework } from '../../portfolio'
 import './Education.css'
 
 const Education = () => (
   <div>
     <div className='main-div' id='education'>
-      <div className='c1 d-inline-flex p-2 container justify-content-around wrap'>
-        <div className='p-2'>
-          <Fade direction='up' triggerOnce='true'>
-            <h1 className='edu-sec-txt'>Education</h1>
-          </Fade>
-        </div>
-        <div className='p-2'>
+      <div className='education-container'>
+        <Fade direction='up' triggerOnce='true'>
+          <h1 className='section-title'>Education</h1>
+        </Fade>
+        <div className='education-div'>
           <hr className='hr-blank' />
           <Fade direction='up' triggerOnce='true'>
             <h4 className='edu-sec-txt txt'>
@@ -22,8 +18,8 @@ const Education = () => (
           <hr className='hr-blank' />
           <Fade direction='up' triggerOnce='true'>
             <h4 className='edu-sec-txt txt'>
-              2016-2019 &nbsp; B.S. in Computer Science | Gujarat Technological
-              University
+              2016-2019 &nbsp; Bachelors in Computer Science | Gujarat
+              Technological University
             </h4>
           </Fade>
           <hr className='hr-blank' />
@@ -34,29 +30,6 @@ const Education = () => (
             </h4>
           </Fade>
           <hr className='hr-blank' />
-        </div>
-      </div>
-    </div>
-
-    <div className='course-div' id='coursework'>
-      <div className='c1 d-inline-flex p-2 container justify-content-around wrap'>
-        <div className='p-2'>
-          <Fade direction='up' triggerOnce='true'>
-            <h1 className='course-div'>Coursework</h1>
-          </Fade>
-        </div>
-
-        <div className='p-2'>
-          {coursework.map((course) => (
-            <h3
-              key={uniqid()}
-              className='course-div-list skills__list-item  m-4 '
-            >
-              <Fade direction='up' triggerOnce='true'>
-                {course}
-              </Fade>
-            </h3>
-          ))}
         </div>
       </div>
     </div>

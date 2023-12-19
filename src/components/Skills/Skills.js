@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section className='section skills' id='skills'>
       <Fade direction='up' triggerOnce='true'>
-        <h2 className='section__title section-skills'>Skills</h2>
+        <h2 className='section-title section-skills'>Skills</h2>
       </Fade>
       <ul className='skills__list'>
         <Fade direction='up' triggerOnce='true'>
