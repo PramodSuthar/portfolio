@@ -30,8 +30,28 @@
   src: url('../src/assets/fonts/Silk-Serif-ExtraLight.otf') format('opentype');
 }
 
+@font-face {
+  font-family: Atyp;
+  src: url('../src/assets/fonts/Atyp.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Concrete;
+  src: url('../src/assets/fonts/Concrete.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Haerme;
+  src: url('../src/assets/fonts/Haerme.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Thuru;
+  src: url('../src/assets/fonts/Thuru.otf') format('opentype');
+}
+
 .app {
-  font-family: 'Almarena-Regular', 'Poppins', sans-serif;
+  font-family: 'Atyp', 'Poppins', sans-serif;
   line-height: 1.5;
   color: var(--clr-main-font);
   background-color: black var(--clr-bg);
@@ -66,6 +86,118 @@
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.light-1 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #ffc0c0,
+    #e6c98c,
+    #ebffb5,
+    #b5fd94,
+    #ffc0c0
+  );
+  --clr-header: #1db9c3;
+  --clr-bg-alt: #efefe7;
+  --clr-fg: #efefe7;
+  --clr-fg-alt: #444;
+  --ghost-bg: #195157;
+
+  --clr-fg-altv2: #444;
+  --clr-btnhover: #e7530b;
+  --clr-main-font: #05445e;
+  --clr-navbar-social-line: #1db9c3;
+  --clr-social-icons-hover: #05445e;
+  --clr-social-icons-navbar-hover1: #1db9c3;
+  --clr-btn-toggle: #2a2f4c;
+  --clr-themebtn-toggle: #1db9c3;
+  --clr-edu-res-h1: #05445e;
+  --clr-text: #555;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.light-2 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #d0ffee,
+    #71d0d3,
+    #5094d3,
+    #b989e0,
+    #d0ffee
+  );
+  --clr-header: #1db9c3;
+  --clr-bg-alt: #efefe7;
+  --clr-fg: #efefe7;
+  --clr-fg-alt: #444;
+  --ghost-bg: #195157;
+
+  --clr-fg-altv2: #444;
+  --clr-btnhover: #e7530b;
+  --clr-main-font: #05445e;
+  --clr-navbar-social-line: #1db9c3;
+  --clr-social-icons-hover: #05445e;
+  --clr-social-icons-navbar-hover1: #1db9c3;
+  --clr-btn-toggle: #2a2f4c;
+  --clr-themebtn-toggle: #1db9c3;
+  --clr-edu-res-h1: #05445e;
+  --clr-text: #555;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.light-3 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #fcf3df,
+    #d4e091,
+    #fff48d,
+    #b6ffc8,
+    #a7f2ff
+  );
+  --clr-header: #1db9c3;
+  --clr-bg-alt: #efefe7;
+  --clr-fg: #efefe7;
+  --clr-fg-alt: #444;
+  --ghost-bg: #195157;
+
+  --clr-fg-altv2: #444;
+  --clr-btnhover: #e7530b;
+  --clr-main-font: #05445e;
+  --clr-navbar-social-line: #1db9c3;
+  --clr-social-icons-hover: #05445e;
+  --clr-social-icons-navbar-hover1: #1db9c3;
+  --clr-btn-toggle: #2a2f4c;
+  --clr-themebtn-toggle: #1db9c3;
+  --clr-edu-res-h1: #05445e;
+  --clr-text: #555;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.light-4 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #daffb0,
+    #cbafe6,
+    #ffd3b5,
+    #ff97c8,
+    #daffb0
+  );
+  --clr-header: #1db9c3;
+  --clr-bg-alt: #efefe7;
+  --clr-fg: #efefe7;
+  --clr-fg-alt: #444;
+  --ghost-bg: #195157;
+
+  --clr-fg-altv2: #444;
+  --clr-btnhover: #e7530b;
+  --clr-main-font: #05445e;
+  --clr-navbar-social-line: #1db9c3;
+  --clr-social-icons-hover: #05445e;
+  --clr-social-icons-navbar-hover1: #1db9c3;
+  --clr-btn-toggle: #2a2f4c;
+  --clr-themebtn-toggle: #1db9c3;
+  --clr-edu-res-h1: #05445e;
+  --clr-text: #555;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .dark {
   --clr-bg: linear-gradient(
     147deg,
@@ -74,6 +206,122 @@
     #534666,
     #cd7672,
     #eeb462
+  );
+
+  --ghost-bg: #2a2f4c;
+  --clr-header: #2a2f4c;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #cdcdff;
+  --clr-main-font: #efefe7;
+  --clr-fg-altv2: #bdbddd;
+  --clr-btnhover: #efefe7;
+  --clr-edu-res-h1: #2a2f4c;
+  --clr-navbar-social-line: #bdbddd;
+  --clr-social-icons-hover: #e7530b;
+  --clr-social-icons-navbar-hover1: #bdbddd;
+  --clr-btn-toggle: #e7530b;
+  --clr-themebtn-toggle: #bdbddd;
+  --clr-text: #2a2f4c;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.dark-1 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #e7ffa6,
+    #7f8dc7,
+    #484bff,
+    #9ea3d3,
+    #e7ffa6
+  );
+  --clr-header: #1db9c3;
+  --clr-bg-alt: #efefe7;
+  --clr-fg: #efefe7;
+  --clr-fg-alt: #444;
+  --ghost-bg: #195157;
+
+  --clr-fg-altv2: #444;
+  --clr-btnhover: #e7530b;
+  --clr-main-font: #05445e;
+  --clr-navbar-social-line: #1db9c3;
+  --clr-social-icons-hover: #05445e;
+  --clr-social-icons-navbar-hover1: #1db9c3;
+  --clr-btn-toggle: #2a2f4c;
+  --clr-themebtn-toggle: #1db9c3;
+  --clr-edu-res-h1: #05445e;
+  --clr-text: #555;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dark-2 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #949494,
+    #7073808f,
+    #534666,
+    #4b4343,
+    #eeb462
+  );
+
+  --ghost-bg: #2a2f4c;
+  --clr-header: #2a2f4c;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #cdcdff;
+  --clr-main-font: #efefe7;
+  --clr-fg-altv2: #bdbddd;
+  --clr-btnhover: #efefe7;
+  --clr-edu-res-h1: #2a2f4c;
+  --clr-navbar-social-line: #bdbddd;
+  --clr-social-icons-hover: #e7530b;
+  --clr-social-icons-navbar-hover1: #bdbddd;
+  --clr-btn-toggle: #e7530b;
+  --clr-themebtn-toggle: #bdbddd;
+  --clr-text: #2a2f4c;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.dark-3 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #000000,
+    #cbd5f7,
+    #000000,
+    #cbd5f7,
+    #000000
+  );
+
+  --ghost-bg: #2a2f4c;
+  --clr-header: #2a2f4c;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #cdcdff;
+  --clr-main-font: #efefe7;
+  --clr-fg-altv2: #bdbddd;
+  --clr-btnhover: #efefe7;
+  --clr-edu-res-h1: #2a2f4c;
+  --clr-navbar-social-line: #bdbddd;
+  --clr-social-icons-hover: #e7530b;
+  --clr-social-icons-navbar-hover1: #bdbddd;
+  --clr-btn-toggle: #e7530b;
+  --clr-themebtn-toggle: #bdbddd;
+  --clr-text: #2a2f4c;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.dark-4 {
+  --clr-bg: linear-gradient(
+    147deg,
+    #2e0d00,
+    #114066,
+    #686172,
+    #686172,
+    #114066,
+    #2e0d00
   );
 
   --ghost-bg: #2a2f4c;

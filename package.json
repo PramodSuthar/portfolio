@@ -8,7 +8,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.2",
-    "framer-motion": "^10.15.0",
+    "framer-motion": "^10.16.16",
     "gh-pages": "^3.2.3",
     "keen-slider": "^6.6.3",
     "npm": "^9.8.1",
