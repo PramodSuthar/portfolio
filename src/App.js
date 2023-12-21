@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+import { motion, useScroll, useSpring } from 'framer-motion'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -13,10 +14,18 @@ import Introduction from './components/Introduction/Introduction'
 import Coursework from './components/Coursework/Coursework'
 
 const App = () => {
+  const { scrollYProgress } = useScroll()
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  })
+
   const [{ themeName }] = useContext(ThemeContext)
 
   return (
     <div id='top' className={`${themeName} app`}>
+      <motion.div className='progress-bar' style={{ scaleX }} />
       <Header />
       <main>
         <About />

@@ -61,7 +61,7 @@
 .light {
   --clr-bg: linear-gradient(
     147deg,
-    #a8e6ce,
+    #6c7ddf,
     #dcedc2,
     #ffd3b5,
     #ffaaa6,
@@ -117,7 +117,7 @@
 .light-2 {
   --clr-bg: linear-gradient(
     147deg,
-    #d0ffee,
+    #dcc6ff,
     #71d0d3,
     #5094d3,
     #b989e0,
@@ -362,7 +362,7 @@ main {
   margin-top: 5em;
 }
 .intro-main {
-  font-family: 'Haerme', 'Poppins', sans-serif;
+  font-family: 'Thuru', 'Poppins', sans-serif;
   text-align: left;
   font-size: 6rem;
 
@@ -376,7 +376,7 @@ main {
 }
 
 .section-title {
-  font-family: 'Haerme', 'Poppins', sans-serif;
+  font-family: 'Thuru', 'Poppins', sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -546,6 +546,16 @@ main {
 
 .project {
   background-color: #fff;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #eeb462;
+  transform-origin: 0%;
 }
 
 .section-skills {
