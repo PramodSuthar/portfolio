@@ -12,6 +12,7 @@ import Education from './components/Education/Education'
 import './App.css'
 import Introduction from './components/Introduction/Introduction'
 import Coursework from './components/Coursework/Coursework'
+import SmoothScroll from './components/SmoothScroll/SmoothScroll'
 
 const App = () => {
   const { scrollYProgress } = useScroll()
@@ -26,19 +27,20 @@ const App = () => {
   return (
     <div id='top' className={`${themeName} app`}>
       <motion.div className='progress-bar' style={{ scaleX }} />
-      <Header />
-      <main>
-        <About />
-        <Introduction />
-        <Coursework />
-        <Projects />
-        <Education />
-        <Skills />
-        <Contact />
-      </main>
-
+      <SmoothScroll>
+        <Header />
+        <main>
+          <About />
+          <Introduction />
+          <Coursework />
+          <Projects />
+          <Education />
+          <Skills />
+          <Contact />
+        </main>
+        <Footer />
+      </SmoothScroll>
       <ScrollToTop />
-      <Footer />
     </div>
   )
 }
