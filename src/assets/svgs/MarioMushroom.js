@@ -1,4 +1,3 @@
-import { keyframes } from '@emotion/react'
 import * as React from 'react'
 
 const MarioMushroom = () => (
