@@ -4,12 +4,12 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <Fade direction='up' triggerOnce='true'>
-      <p className='footer__link'>Made with ❤️ & React ⚛️</p>
+      <p className='footer-link'>Made with ❤️ & React ⚛️</p>
     </Fade>
 
     <hr />
     <Fade direction='up' triggerOnce='true'>
-      <p className='footer__link'>© Pramod Suthar</p>
+      <p className='footer-link'>© Pramod Suthar</p>
     </Fade>
   </footer>
 )

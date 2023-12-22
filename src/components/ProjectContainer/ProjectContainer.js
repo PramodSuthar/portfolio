@@ -4,9 +4,8 @@ import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <div className='project '>
     <h3 className='box'>{project.name}</h3>
-
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -17,7 +16,6 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
-
     {project.sourceCode && (
       <a
         href={project.sourceCode}
@@ -27,7 +25,6 @@ const ProjectContainer = ({ project }) => (
         <GitHubIcon />
       </a>
     )}
-
     {project.livePreview && (
       <a
         href={project.livePreview}

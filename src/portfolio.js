@@ -13,6 +13,8 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/pramodsuthar',
     github: 'https://www.github.com/PramodSuthar',
   },
+  about:
+    "Hey there! 👋 Welcome to my little corner of the web! I'm a full-stack dev, vibing with the code and making cool sites/apps. When I'm not coding, catch me owning the gaming world 🎮, binging on movies 🎦, and diving into some rad non-fiction/self-improvement books 📚.  If you're all about code, football, or just chilling like me, Let's connect! 🚀",
 }
 
 const projects = [
@@ -176,23 +178,35 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'React',
+  'ReactJS',
+  'ExpressJS',
+  'NodeJS',
   'Redux',
-  'Express',
   'MongoDB',
-  'Firebase',
-  'Java',
-  'Swift',
-  'Python',
+  'Bootstrap',
+  'Tailwind CSS',
   'C#',
   'C++',
+  'Java',
+  'React Native',
+  'Python',
+  'Swift',
+  'MongoDB',
   'MySQL',
-  'Oracle DB',
   'SQLite',
-  'Realm',
-  'GitHub',
+  'Oracle DB',
+  'Firebase',
+  'Prisma ORM',
+  'Styled Components',
+  'Git',
   'Perforce',
-  'CI/CD',
+  'GitHub',
+  'TeamCity',
+  'Jira',
+  'Confluence',
+  'Github Actions',
+  'Docker',
+  'AWS',
 ]
 
 const coursework = [
@@ -212,7 +226,7 @@ const coursework = [
 ]
 
 const contact = {
-  email: 'pramodsuthar@mail.com',
+  email: 'sutharpramod@outlook.com',
 }
 
 export { header, about, projects, skills, contact, coursework }

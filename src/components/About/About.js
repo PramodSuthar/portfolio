@@ -5,7 +5,7 @@ import './About.css'
 import Ghost from '../Ghost/Ghost'
 
 const About = () => {
-  const { name, description } = about
+  const { name } = about
 
   return (
     <>
@@ -15,19 +15,14 @@ const About = () => {
           {name && (
             <Fade direction='up' triggerOnce='true'>
               <div className='intro-main hi-main'>
-                <Slider />,
+                <Slider />
                 <div className='intro-main'>
-                  I&apos;m <span className='about-name'>{name}.</span>
+                  , I&apos;m <span className='about-name'>{name}</span>
                 </div>
               </div>
             </Fade>
           )}
         </div>
-        <Fade direction='up' triggerOnce='true'>
-          <div className='about-desc'>
-            <span>{description}</span>
-          </div>
-        </Fade>
       </div>
     </>
   )

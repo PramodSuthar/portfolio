@@ -14,7 +14,7 @@ const Coursework = () => (
 
     <div className='coursework-div'>
       {coursework.map((course) => (
-        <h3 key={uniqid()} className='course-div-list skills__list-item'>
+        <h3 key={uniqid()} className='course-div-list skills-list-item'>
           <Fade direction='up' triggerOnce='true'>
             {course}
           </Fade>

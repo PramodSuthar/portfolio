@@ -13,7 +13,7 @@ const Projects = () => {
         <h1 className='section-title'>Projects</h1>
       </Fade>
       <div className='section-project sds'>
-        <span className='projects__grid box'>
+        <span className='projects-grid box'>
           {projects.map((project) => (
             <Fade direction='up' triggerOnce='true'>
               <ProjectContainer key={uniqid()} project={project} />
