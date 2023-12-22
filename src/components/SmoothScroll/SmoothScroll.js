@@ -22,7 +22,7 @@ const SmoothScroll = ({ children }) => {
       resizePageHeight(entries)
     )
     if (scrollRef) {
-      resizeObserver.observe(scrollRef.current)
+      resizeObserver.observe(scrollRef?.current)
     }
     return () => resizeObserver.disconnect()
   }, [scrollRef, resizePageHeight])
