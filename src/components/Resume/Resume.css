@@ -1,4 +1,3 @@
-/* Common styles */
 .resume-flex {
   max-width: 1400px;
   color: #e7530b;
@@ -24,7 +23,6 @@
   flex-wrap: wrap;
 }
 
-/* Media query for small screens (max-width: 600px) */
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-end;

@@ -1,24 +1,24 @@
 .header {
-  height: 8em;
-  max-width: 1250px;
+  height: 4em;
+  max-width: 78.125em;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5em) {
   .header {
-    height: 6em;
+    height: 3em;
   }
 
   .header-name {
-    font-size: 1.7rem !important;
+    font-size: 1.7em !important;
     margin: 0;
   }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 600px) {
   .header-name {
     margin: 0;
   }

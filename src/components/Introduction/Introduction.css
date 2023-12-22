@@ -1,7 +1,12 @@
 .introduction {
-  font-size: 50px;
-  padding: 0 90px;
-  align-items: center;
-  /* text-align: justify;
-  text-justify: inter-character; */
+  font-size: 3.125em;
+  color: black;
+  margin: 1.125em auto;
+  background-color: #efefe7;
+  padding: 1.2em !important;
+  border-radius: 0.4em;
+}
+
+.introduction-base {
+  font-size: 1.4em;
 }

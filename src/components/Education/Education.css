@@ -1,3 +1,7 @@
+:root {
+  --base-font-size: 16px; /* Adjust this value based on your base font size */
+}
+
 .c1 {
   max-width: 100%;
   align-items: center;
@@ -10,14 +14,14 @@
 }
 
 .main-div {
-  margin: 5rem auto;
+  margin: 3.125em auto;
   background-color: #efefe7;
-  padding: 6rem !important;
+  padding: 3em !important;
 }
 
 .education-container {
   display: inline-flex;
-  padding: 0.5rem;
+  padding: 0.3125em;
   margin: 0;
   box-sizing: border-box;
   flex-wrap: wrap;
@@ -42,7 +46,7 @@
 }
 
 .education-div {
-  padding: 0.5rem;
+  padding: 0.3125em;
 }
 
 @media (max-width: 600px) {

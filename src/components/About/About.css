@@ -3,8 +3,6 @@
 }
 
 .about-desc {
-  font-size: 3em;
-  max-width: 37.5em;
 }
 
 .about .link--icon {
@@ -32,13 +30,6 @@ body {
 @media (max-width: 600px) {
   .app .about {
     margin-top: 2em;
-  }
-
-  .about-desc {
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-self: center;
   }
 
   .about-name {
