@@ -24,23 +24,28 @@ const App = () => {
 
   const [{ themeName }] = useContext(ThemeContext)
 
+  const isDesktop = window.innerWidth > 768
+
+  const mainContent = (
+    <>
+      <Header />
+      <main>
+        <About />
+        <Introduction />
+        <Coursework />
+        <Projects />
+        <Education />
+        <Skills />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
+
   return (
     <div id='top' className={`${themeName} app`}>
       <motion.div className='progress-bar' style={{ scaleX }} />
-      <SmoothScroll>
-        <Header />
-        <main>
-          <About />
-          <Introduction />
-          <Coursework />
-          <Projects />
-          <Education />
-          <Skills />
-          <Contact />
-        </main>
-        <Footer />
-      </SmoothScroll>
-      <ScrollToTop />
+      {isDesktop ? <SmoothScroll>{mainContent}</SmoothScroll> : mainContent}
     </div>
   )
 }
