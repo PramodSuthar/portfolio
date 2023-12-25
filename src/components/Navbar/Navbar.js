@@ -31,7 +31,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav navbar-link'
             >
-              Education
+              education
             </a>
           </li>
         ) : null}
@@ -55,7 +55,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav navbar-link'
             >
-              Projects
+              projects
             </a>
           </li>
         ) : null}
@@ -67,7 +67,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav navbar-link'
             >
-              Skills
+              skills
             </a>
           </li>
         ) : null}
@@ -91,7 +91,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav navbar-link'
             >
-              Contact
+              contact
             </a>
           </li>
         ) : null}

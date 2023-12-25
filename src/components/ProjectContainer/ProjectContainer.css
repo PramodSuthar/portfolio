@@ -1,13 +1,15 @@
-/* Mycomponent.css */
-
-/* Common styles */
 .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--shadow); /* Assuming --shadow is defined elsewhere */
+  box-shadow: var(--shadow);
   transition: transform 0.2s linear;
-  margin-right: 0.5em; /* Moved from the end of the file */
+  margin-right: 0.5em;
+  border-radius: 0.4em;
+  height: 100%;
 }
 
 .project:hover {
@@ -24,17 +26,33 @@
   justify-content: center;
   margin: 1.2em 0;
   padding-left: 0;
+  align-items: center;
 }
 
 .project__stack-item {
   margin: 0.5em;
-  font-weight: bold; /* Changed 12 to bold for font weight */
+  font-weight: bold;
   font-size: 0.95rem;
-  color: var(--clr-fg-alt); /* Assuming --clr-fg-alt is defined elsewhere */
+  color: var(--clr-fg-alt);
 }
 
-/* Additional styles (assuming it was mistakenly repeated) */
 .social-icon-preview {
   margin-right: 0 !important;
   margin-left: 0.5em;
+}
+
+.projects-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-bottom-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
