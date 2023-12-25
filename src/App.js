@@ -44,8 +44,15 @@ const App = () => {
 
   return (
     <div id='top' className={`${themeName} app`}>
-      <motion.div className='progress-bar' style={{ scaleX }} />
-      {isDesktop ? <SmoothScroll>{mainContent}</SmoothScroll> : mainContent}
+      {isDesktop ? (
+        <>
+          <motion.div className='progress-bar' style={{ scaleX }} />
+          <SmoothScroll>{mainContent}</SmoothScroll>
+        </>
+      ) : (
+        mainContent
+      )}
+      <ScrollToTop />
     </div>
   )
 }

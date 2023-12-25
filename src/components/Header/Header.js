@@ -6,7 +6,7 @@ const Header = () => {
   const { homepage, title } = header
 
   return (
-    <header className='header center ' id='home'>
+    <header className='header end' id='home'>
       <h2 className='header-name'>
         {homepage ? (
           <a href={homepage} className='link'>
