@@ -2,7 +2,6 @@ import React from 'react'
 import './Introduction.css'
 import { about } from '../../portfolio'
 import AnimateText from '../Animations/AnimateText'
-import SvgAnimations from '../SvgAnimations/SvgAnimations'
 
 const Introduction = () => (
   <div className='introduction'>
