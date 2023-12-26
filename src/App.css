@@ -86,6 +86,7 @@
   --clr-text-section-education: #2a2f4c;
   --clr-text: #555;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-box-bg: #faf0e6;
 }
 
 .light-1 {
@@ -115,6 +116,7 @@
   --clr-text-section-education: #444;
   --clr-text: #555;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-box-bg: #faf0e6;
 }
 
 .light-2 {
@@ -145,6 +147,7 @@
 
   --clr-text: #555;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-box-bg: #faf0e6;
 }
 
 .light-3 {
@@ -174,6 +177,7 @@
   --clr-text: #555;
   --clr-text-section-education: #444;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-box-bg: #faf0e6;
 }
 
 .light-4 {
@@ -203,6 +207,7 @@
   --clr-text: #555;
   --clr-text-section-education: #444;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-box-bg: #faf0e6;
 }
 
 .dark {
