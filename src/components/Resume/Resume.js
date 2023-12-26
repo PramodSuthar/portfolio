@@ -1,5 +1,4 @@
 import { Fade } from 'react-awesome-reveal'
-import { FaFilePdf } from 'react-icons/fa'
 import './Resume.css'
 import pdf from '../../assets/Pramod_Suthar_Resume.pdf'
 
@@ -20,7 +19,7 @@ const Resume = () => (
               rel='noopener noreferrer'
               className='resume-icon'
             >
-              <FaFilePdf size={70} />
+              {/* <FaFilePdf size={70} /> */}
             </a>
           </button>
         </Fade>

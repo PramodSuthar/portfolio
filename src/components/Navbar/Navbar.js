@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import Brightness2Icon from '@mui/icons-material/Brightness2'
 import LightModeIcon from '@mui/icons-material/LightMode'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import TwitterIcon from '@mui/icons-material/Twitter'
+import X from '@mui/icons-material/X'
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 import { ThemeContext } from '../../contexts/theme'
@@ -103,7 +103,7 @@ const Navbar = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <TwitterIcon />
+            <X />
           </a>
         </button>
         <button type='button' className='btn--icon nav-list-item '>
