@@ -6,7 +6,7 @@ const Education = () => (
     <div className='main-div' id='education'>
       <div className='education-container'>
         <Fade direction='up' triggerOnce='true'>
-          <h1 className='section-title'>Education</h1>
+          <h1 className='section-title section-education'>Education</h1>
         </Fade>
         <div className='education-div'>
           <hr className='hr-blank' />

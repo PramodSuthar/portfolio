@@ -2,6 +2,7 @@ import React from 'react'
 import './Introduction.css'
 import { about } from '../../portfolio'
 import AnimateText from '../Animations/AnimateText'
+import SvgAnimations from '../SvgAnimations/SvgAnimations'
 
 const Introduction = () => (
   <div className='introduction'>
@@ -10,7 +11,6 @@ const Introduction = () => (
         className='introduction-base'
         text='Welcome to my Portfolio!'
       />
-      {/* <div className='introduction-base'>Welcome to my portfolio! </div> */}
       <div className='introduction-content'>{about.about}</div>
     </div>
   </div>

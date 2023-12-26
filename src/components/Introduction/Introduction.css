@@ -2,7 +2,7 @@
   font-size: 3.125em;
   color: black;
   margin: 1.125em auto;
-  background-color: #efefe7;
+  background-color: var(--clr-box-bg);
   padding: 1.2em !important;
   border-radius: 0.4em;
 }
