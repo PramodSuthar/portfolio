@@ -16,7 +16,7 @@ const about = {
     github: 'https://www.github.com/PramodSuthar',
   },
   about:
-    "Hey there! 👋 Welcome to my little corner of the web! I'm a full-stack dev, vibing with the code and making cool sites/apps. When I'm not coding, catch me owning the gaming world 🎮, binging on movies 🎦, and diving into some rad non-fiction/self-improvement books 📚.  If you're all about code, football, or just chilling like me, Let's connect! 🚀",
+    "Greetings! 👋 I'm a seasoned full-stack developer, specializing in crafting cutting-edge websites and applications. Beyond coding, I dominate the gaming realm 🎮, immerse myself in cinematic experiences 🎦, and delve into impactful non-fiction/self-improvement books 📚. If you share a passion for code, football, or just chilling like me, Let's connect! 🚀",
 }
 
 const projects = [
