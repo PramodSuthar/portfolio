@@ -27,6 +27,7 @@ const Navbar = () => {
               href='#coursework'
               onClick={toggleNavList}
               className='link link--nav navbar-link'
+              aria-label='coursework'
             >
               coursework
             </a>
@@ -39,6 +40,7 @@ const Navbar = () => {
               href='#projects'
               onClick={toggleNavList}
               className='link link--nav navbar-link'
+              aria-label='projects'
             >
               projects
             </a>
@@ -51,6 +53,7 @@ const Navbar = () => {
               href='#education'
               onClick={toggleNavList}
               className='link link--nav navbar-link'
+              aria-label='education'
             >
               education
             </a>
@@ -63,6 +66,7 @@ const Navbar = () => {
               href='#skills'
               onClick={toggleNavList}
               className='link link--nav navbar-link'
+              aria-label='skills'
             >
               skills
             </a>
@@ -75,6 +79,7 @@ const Navbar = () => {
               href='#contact'
               onClick={toggleNavList}
               className='link link--nav navbar-link'
+              aria-label='contact'
             >
               contact
             </a>
@@ -87,6 +92,7 @@ const Navbar = () => {
             href='https://www.twitter.com/Prmd96'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='twitter'
           >
             <X />
           </a>
@@ -97,6 +103,7 @@ const Navbar = () => {
             href='https://www.github.com/PramodSuthar'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='github'
           >
             <GitHubIcon />
           </a>
@@ -108,6 +115,7 @@ const Navbar = () => {
             href='https://www.linkedin.com/in/pramodsuthar/'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='linkedin'
           >
             <LinkedInIcon />
           </a>

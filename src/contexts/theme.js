@@ -19,7 +19,6 @@ const ThemeProvider = ({ children }) => {
   }
 
   const toggleRandomTheme = () => {
-    console.log('theme:', localStorage.getItem('themeName'))
     const themeOptions = themeName.includes('dark')
       ? ['dark', 'dark-1', 'dark-2', 'dark-3', 'dark-4']
       : ['light', 'light-1', 'light-2', 'light-3', 'light-4']
