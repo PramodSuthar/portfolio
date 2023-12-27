@@ -61,18 +61,17 @@
 .light {
   --clr-bg: linear-gradient(
     147deg,
-    #6c7ddf,
-    #dcedc2,
+    #daffb0,
+    #cbafe6,
     #ffd3b5,
-    #ffaaa6,
-    #ff8c94
+    #ff97c8,
+    #daffb0
   );
   --clr-header: #1db9c3;
   --clr-bg-alt: #efefe7;
   --clr-fg: #efefe7;
-  --clr-fg-alt: #0b3863;
+  --clr-fg-alt: #444;
   --ghost-bg: #195157;
-  --scrollbar-bg: #571919;
 
   --clr-fg-altv2: #444;
   --clr-btnhover: #e7530b;
@@ -82,9 +81,9 @@
   --clr-social-icons-navbar-hover1: #1db9c3;
   --clr-btn-toggle: #2a2f4c;
   --clr-themebtn-toggle: #1db9c3;
-  --clr-edu-res-h1: #0b3863;
-  --clr-text-section-education: #2a2f4c;
+  --clr-edu-res-h1: #05445e;
   --clr-text: #555;
+  --clr-text-section-education: #444;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --clr-box-bg: #faf0e6;
 }
@@ -183,17 +182,18 @@
 .light-4 {
   --clr-bg: linear-gradient(
     147deg,
-    #daffb0,
-    #cbafe6,
+    #6c7ddf,
+    #dcedc2,
     #ffd3b5,
-    #ff97c8,
-    #daffb0
+    #ffaaa6,
+    #ff8c94
   );
   --clr-header: #1db9c3;
   --clr-bg-alt: #efefe7;
   --clr-fg: #efefe7;
-  --clr-fg-alt: #444;
+  --clr-fg-alt: #0b3863;
   --ghost-bg: #195157;
+  --scrollbar-bg: #571919;
 
   --clr-fg-altv2: #444;
   --clr-btnhover: #e7530b;
@@ -203,9 +203,9 @@
   --clr-social-icons-navbar-hover1: #1db9c3;
   --clr-btn-toggle: #2a2f4c;
   --clr-themebtn-toggle: #1db9c3;
-  --clr-edu-res-h1: #05445e;
+  --clr-edu-res-h1: #0b3863;
+  --clr-text-section-education: #2a2f4c;
   --clr-text: #555;
-  --clr-text-section-education: #444;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --clr-box-bg: #faf0e6;
 }
