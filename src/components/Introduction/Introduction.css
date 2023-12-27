@@ -10,3 +10,24 @@
 .introduction-base {
   font-size: 1.4em;
 }
+
+@media (max-width: 600px) {
+  .introduction {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: initial;
+    font-size: 1.6em;
+    color: black;
+    margin: 1.125em auto;
+    background-color: var(--clr-box-bg);
+    padding: 1em !important;
+    border-radius: 0.4em;
+  }
+
+  .introduction-base {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: initial;
+    font-size: 1.5em;
+  }
+}

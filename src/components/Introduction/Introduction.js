@@ -5,13 +5,12 @@ import AnimateText from '../Animations/AnimateText'
 
 const Introduction = () => (
   <div className='introduction'>
-    <div>
-      <AnimateText
-        className='introduction-base'
-        text='Welcome to my Portfolio!'
-      />
-      <div className='introduction-content'>{about.about}</div>
-    </div>
+    <AnimateText
+      className='introduction-base'
+      text='Welcome to my Portfolio!'
+      el='div'
+    />
+    <div className='introduction-content'>{about.about}</div>
   </div>
 )
 

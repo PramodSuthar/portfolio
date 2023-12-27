@@ -20,22 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className='center nav'>
-      <ul
-        style={{ display: showNavList ? 'flex' : null }}
-        className='nav-list nav-list-toggle'
-      >
-        {contact.email ? (
-          <li className='nav-list-item'>
-            <a
-              href='#education'
-              onClick={toggleNavList}
-              className='link link--nav navbar-link'
-            >
-              education
-            </a>
-          </li>
-        ) : null}
-
+      <ul style={{ display: showNavList ? 'flex' : null }} className='nav-list'>
         {skills.length ? (
           <li className='nav-list-item'>
             <a
@@ -60,6 +45,18 @@ const Navbar = () => {
           </li>
         ) : null}
 
+        {contact.email ? (
+          <li className='nav-list-item'>
+            <a
+              href='#education'
+              onClick={toggleNavList}
+              className='link link--nav navbar-link'
+            >
+              education
+            </a>
+          </li>
+        ) : null}
+
         {skills.length ? (
           <li className='nav-list-item'>
             <a
@@ -71,18 +68,6 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
-
-        {/* {skills.length ? (
-          <li className='nav-list-item'>
-            <a
-              href='#contact'
-              onClick={toggleNavList}
-              className='link link--nav navbar-link'
-            >
-              Resume
-            </a>
-          </li>
-        ) : null} */}
 
         {contact.email ? (
           <li className='nav-list-item'>
@@ -149,7 +134,7 @@ const Navbar = () => {
       <button
         type='button'
         onClick={toggleNavList}
-        className='btn btn--icon nav-hamburger nav-list-item btn-toggle '
+        className='btn btn--icon nav-hamburger nav-list-item btn-toggle'
         aria-label='toggle navigation'
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}

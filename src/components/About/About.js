@@ -10,19 +10,18 @@ const About = () => {
   return (
     <>
       <Ghost />
-      <div className='about '>
-        <div className='about-section'>
-          {name && (
-            <Fade direction='up' triggerOnce='true'>
-              <div className='intro-main hi-main'>
-                <Slider />
-                <div className='intro-main'>
-                  , I&apos;m <span className='about-name'>{name}</span>
-                </div>
-              </div>
-            </Fade>
-          )}
-        </div>
+
+      <div className='about-section about center'>
+        {name && (
+          <Fade direction='up' triggerOnce='true'>
+            <h1 className='hi-main'>
+              <Slider />
+              <span>
+                , I&apos;m <span className='about__name'>{name}.</span>
+              </span>
+            </h1>
+          </Fade>
+        )}
       </div>
     </>
   )

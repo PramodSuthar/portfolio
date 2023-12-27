@@ -317,7 +317,7 @@
   --clr-header: #f5f5dc;
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
-  --clr-fg-alt: #2a2f4c;
+  --clr-fg-alt: #bbb9b4;
   --clr-main-font: #f8f8f8;
   --clr-fg-altv2: #bdbddd;
   --clr-btnhover: #efefe7;
@@ -371,10 +371,6 @@ main {
   margin: 0 auto;
 }
 
-.hi-main {
-  color: var(--clr-header);
-}
-
 .btn-navbar-social {
   color: var(--clr-main-font);
   background-color: transparent;
@@ -386,18 +382,14 @@ main {
 .section {
   margin-top: 5em;
 }
-.intro-main {
-  font-family: 'Thuru', 'Poppins', sans-serif;
-  text-align: left;
-  font-size: 6rem;
 
-  .hi-main {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    margin: 0 !important;
-  }
+.hi-main {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  font-size: 6rem;
+  margin: 0 !important;
+  font-family: 'Thuru', 'Poppins', sans-serif;
 }
 
 .section-title {
@@ -416,6 +408,7 @@ main {
   display: flex;
   align-items: flex-end;
   text-align: left;
+  align-items: center;
 }
 
 .top-arrow {
@@ -563,6 +556,7 @@ main {
 }
 
 .btn-toggle {
+  padding-top: 0.5em;
   color: var(--clr-main-font);
 }
 
@@ -631,11 +625,11 @@ main {
   }
 
   .section-skills {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 }
 
-@media screen and (min-width: 433px) {
+@media screen and (max-width: 500px) {
   .main {
     animation-name: fadein;
     animation-iteration-count: once;
@@ -648,5 +642,13 @@ main {
   .section-project {
     padding-left: 25px;
     padding-right: 20px;
+  }
+
+  .hi-main {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    font-size: 2.8rem;
+    margin: 0 !important;
   }
 }

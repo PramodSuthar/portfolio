@@ -1,6 +1,3 @@
-/* eslint-disable arrow-body-style */
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable camelcase */
 import React from 'react'
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
@@ -14,10 +11,10 @@ export default () => {
     {
       loop: true,
       detailsChanged(s) {
-        const new_opacities = s.track.details.slides.map(
+        const newOpacities = s.track.details.slides.map(
           (slide) => slide.portion
         )
-        setOpacities(new_opacities)
+        setOpacities(newOpacities)
       },
       drag: false,
       mode: 'free-snap',
@@ -63,17 +60,15 @@ export default () => {
 
   return (
     <div ref={sliderRef} className='keen-slider' style={{ height: 180 }}>
-      {salutations.map((src, idx) => {
-        return (
-          <p
-            key={idx}
-            className='keen-slide keen-slider__slide number-slide'
-            style={{ opacity: opacities[idx] }}
-          >
-            <p className='slider-text'>{src}</p>
-          </p>
-        )
-      })}
+      {salutations.map((src, index) => (
+        <p
+          key={salutations.indexOf(src)}
+          className='keen-slide keen-slider__slide number-slide'
+          style={{ opacity: opacities[index] }}
+        >
+          <p className='slider-text'>{src}</p>
+        </p>
+      ))}
     </div>
   )
 }

@@ -5,6 +5,15 @@
   margin: 0 auto;
   justify-content: space-between;
   font-size: 1.2em;
+  padding-top: 1.5em;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  padding: 0 !important;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 37.5em) {
@@ -21,5 +30,15 @@
 @media (max-width: 600px) {
   .header-name {
     margin: 0;
+  }
+
+  .header-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;
+    padding: 0 !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -3,14 +3,15 @@ import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
 const Header = () => {
-  const { homepage, title } = header
+  const { homepage, title, firstName, lastName } = header
 
   return (
     <header className='header end' id='home'>
       <h2 className='header-name'>
         {homepage ? (
-          <a href={homepage} className='link'>
-            {title}
+          <a className='header-flex link' href={homepage}>
+            <span>{firstName}</span>
+            <span>{lastName}</span>
           </a>
         ) : (
           title
