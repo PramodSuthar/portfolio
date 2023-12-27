@@ -1,5 +1,6 @@
 import React from 'react'
 import './Introduction.css'
+import { Fade } from 'react-awesome-reveal'
 import { about } from '../../portfolio'
 import AnimateText from '../Animations/AnimateText'
 
@@ -10,7 +11,9 @@ const Introduction = () => (
       text='Welcome to my Portfolio!'
       el='div'
     />
-    <div className='introduction-content'>{about.about}</div>
+    <Fade direction='up' triggerOnce='true'>
+      <div className='introduction-content'>{about.about}</div>
+    </Fade>
   </div>
 )
 
