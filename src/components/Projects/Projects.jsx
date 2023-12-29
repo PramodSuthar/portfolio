@@ -4,6 +4,8 @@ import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './Projects.css'
 
+const isDesktop = window.innerWidth > 768
+
 const Projects = () => {
   if (!projects.length) return null
 
@@ -16,7 +18,11 @@ const Projects = () => {
         <span className='projects-grid box'>
           {projects.map((project) => (
             <Fade direction='up' triggerOnce='true'>
-              <ProjectContainer key={uniqid()} project={project} />
+              {isDesktop ? (
+                <></>
+              ) : (
+                <ProjectContainer key={uniqid()} project={project} />
+              )}
             </Fade>
           ))}
         </span>
