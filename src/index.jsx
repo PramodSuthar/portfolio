@@ -6,7 +6,6 @@ import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <ThemeProvider>
-    <script type='module' src='/src/index.jsx' />
     <App />
   </ThemeProvider>
 )
