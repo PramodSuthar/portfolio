@@ -26,13 +26,11 @@ const Projects = () => {
           navButtonsAlwaysVisible
           PrevIcon={<NavigateBeforeIcon />}
           NextIcon={<NavigateNextIcon />}
-          height='450px'
+          height='500px'
         >
-          <span className='projects-grid box'>
-            {projects.map((project) => (
-              <ProjectContainer key={uniqid()} project={project} />
-            ))}
-          </span>
+          {projects.map((project) => (
+            <ProjectContainer key={uniqid()} project={project} />
+          ))}
         </Carousel>
       )}
     </span>
