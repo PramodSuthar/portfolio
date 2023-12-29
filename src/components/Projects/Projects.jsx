@@ -13,28 +13,30 @@ const isDesktop = window.innerWidth > 500
 const Projects = () => {
   if (!projects.length) return null
 
-  const projectsArray = () =>
-    isDesktop ? (
-      projects.map((project) => (
-        <Fade direction='up' triggerOnce='true'>
-          <ProjectContainer key={uniqid()} project={project} />
-        </Fade>
-      ))
-    ) : (
-      <span className='projects-grid box'>
+  const projectsArray = () => (
+    <span className='projects-grid box'>
+      {isDesktop ? (
+        projects.map((project) => (
+          <Fade direction='up' triggerOnce='true'>
+            <ProjectContainer key={uniqid()} project={project} />
+          </Fade>
+        ))
+      ) : (
         <Carousel
-          fullHeightHover
           navButtonsAlwaysVisible
           PrevIcon={<NavigateBeforeIcon />}
           NextIcon={<NavigateNextIcon />}
-          height='500px'
+          height='450px'
         >
-          {projects.map((project) => (
-            <ProjectContainer key={uniqid()} project={project} />
-          ))}
+          <span className='projects-grid box'>
+            {projects.map((project) => (
+              <ProjectContainer key={uniqid()} project={project} />
+            ))}
+          </span>
         </Carousel>
-      </span>
-    )
+      )}
+    </span>
+  )
 
   return (
     <section id='projects' className='section projects'>
