@@ -12,7 +12,6 @@ import Education from './components/Education/Education'
 import './App.css'
 import Introduction from './components/Introduction/Introduction'
 import Coursework from './components/Coursework/Coursework'
-import SmoothScroll from './components/SmoothScroll/SmoothScroll'
 
 const App = () => {
   const { scrollYProgress } = useScroll()
@@ -47,7 +46,7 @@ const App = () => {
       {isDesktop ? (
         <>
           <motion.div className='progress-bar' style={{ scaleX }} />
-          <SmoothScroll>{mainContent}</SmoothScroll>
+          {mainContent}
         </>
       ) : (
         mainContent
