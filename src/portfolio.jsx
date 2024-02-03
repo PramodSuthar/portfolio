@@ -208,6 +208,7 @@ const skills = [
   'Confluence',
   'Github Actions',
   'Docker',
+  'Kubernetes',
   'AWS',
 ]
 
